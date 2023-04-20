@@ -490,7 +490,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7b883650b8f4de14f89eb76aae45481b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  moveSpeed: 1
+  moveSpeed: 3
+  groundDrag: 3
+  playerHeight: 2
+  whatIsGround:
+    serializedVersion: 2
+    m_Bits: 64
   orientation: {fileID: 2132955692}
 --- !u!1 &2002133271
 GameObject:
@@ -3787,7 +3792,7 @@ GameObject:
   - component: {fileID: 8168969872891450421}
   - component: {fileID: 8247994414115939852}
   - component: {fileID: 2550463727160271948}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Floor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
