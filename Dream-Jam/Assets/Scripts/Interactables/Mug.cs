@@ -6,6 +6,7 @@ public class Mug : Interactable
 {
     [SerializeField]
     private GameObject dreamVersion;
+    public GameObject particle;
 
     // Start is called before the first frame update
     void Start()
@@ -24,6 +25,7 @@ public class Mug : Interactable
     {
         Debug.Log("interacted with " + gameObject.name);
         transform.gameObject.SetActive (false);
+        Instantiate(particle, transform.position, Quaternion.identity);
         dreamVersion.SetActive(true);
 
     }
