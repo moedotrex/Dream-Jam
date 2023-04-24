@@ -37,7 +37,7 @@ public class PlayerInteract : MonoBehaviour
                 Renderer renderer = hitInfo.collider.GetComponent<Renderer>();
                 if (renderer != null)
                 {
-                    renderer.material.color = Color.yellow;
+                    renderer.material.color = Color.blue;
                     if (lastRenderer != null && lastRenderer != renderer)
                     {
                         lastRenderer.material.color = Color.white;
