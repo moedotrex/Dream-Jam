@@ -11,7 +11,7 @@ public class Mug : Interactable
     // Start is called before the first frame update
     void Start()
     {
-        
+        //GetComponent<Renderer>().material.color = Color.blue;
     }
 
     // Update is called once per frame

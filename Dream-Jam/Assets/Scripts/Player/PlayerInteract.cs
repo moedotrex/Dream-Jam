@@ -11,6 +11,7 @@ public class PlayerInteract : MonoBehaviour
     private LayerMask mask;
     private PlayerUI playerUI;
     private InputManager inputManager;
+    private Renderer lastRenderer;
 
     // Start is called before the first frame update
     void Start()
@@ -33,14 +34,31 @@ public class PlayerInteract : MonoBehaviour
             if (hitInfo.collider.GetComponent<Interactable>() != null)
             {
                 Interactable interactable = hitInfo.collider.GetComponent<Interactable>();
-                //aqui puedo agregar que se prenda el texto 3D
+                Renderer renderer = hitInfo.collider.GetComponent<Renderer>();
+                if (renderer != null)
+                {
+                    renderer.material.color = Color.yellow;
+                    if (lastRenderer != null && lastRenderer != renderer)
+                    {
+                        lastRenderer.material.color = Color.white;
+                    }
+                    lastRenderer = renderer;
+                }
+
                 playerUI.UpdateText(interactable.promptMessage);
-                //tambien voy a agregar el shader de outline
                 
                 if (inputManager.onFoot.Interact.triggered)
                 {
                     interactable.BaseInteract();
                 }
+            }
+        }
+        else
+        {
+            if (lastRenderer != null)
+            {
+                lastRenderer.material.color = Color.white;
+                lastRenderer = null;
             }
         }
     }

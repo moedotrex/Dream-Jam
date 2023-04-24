@@ -18,4 +18,14 @@ public abstract class Interactable : MonoBehaviour
         //we won't have any code written in this function
         //this is a template function to be overridden by our subclasses
     }
+
+    public void SetHighlight(bool isHighlighted)
+    {
+        // set the highlight color of the object based on the isHighlighted flag
+        Renderer renderer = GetComponent<Renderer>();
+        if (renderer != null)
+        {
+            renderer.material.color = isHighlighted ? Color.yellow : Color.white;
+        }
+    }
 }
