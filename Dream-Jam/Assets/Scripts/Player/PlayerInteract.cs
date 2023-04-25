@@ -40,7 +40,7 @@ public class PlayerInteract : MonoBehaviour
                     renderer.material.color = Color.blue;
                     if (lastRenderer != null && lastRenderer != renderer)
                     {
-                        lastRenderer.material.color = Color.white;
+                        lastRenderer.material.color = Color.black;
                     }
                     lastRenderer = renderer;
                 }
@@ -57,7 +57,7 @@ public class PlayerInteract : MonoBehaviour
         {
             if (lastRenderer != null)
             {
-                lastRenderer.material.color = Color.white;
+                lastRenderer.material.color = Color.black;
                 lastRenderer = null;
             }
         }

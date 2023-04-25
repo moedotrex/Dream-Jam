@@ -25,7 +25,7 @@ public abstract class Interactable : MonoBehaviour
         Renderer renderer = GetComponent<Renderer>();
         if (renderer != null)
         {
-            renderer.material.color = isHighlighted ? Color.blue : Color.white;
+            renderer.material.color = isHighlighted ? Color.blue : Color.black;
         }
     }
 }
