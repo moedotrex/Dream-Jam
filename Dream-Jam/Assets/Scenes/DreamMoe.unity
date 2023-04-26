@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.023737198, g: 0.0016153359, b: 0.13380821, a: 1}
+  m_IndirectSpecularColor: {r: 0.023737486, g: 0.0016144795, b: 0.13378589, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -940,8 +940,8 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: -5081792898505675300, guid: 5db5dd2194fc4f44eaeab3214b91a15b, type: 3}
-  - {fileID: -876546973899608171, guid: 5db5dd2194fc4f44eaeab3214b91a15b, type: 3}
+  - {fileID: 2100000, guid: bff35257e20f9b34b9e6f9f5feafc442, type: 2}
+  - {fileID: 2100000, guid: bff35257e20f9b34b9e6f9f5feafc442, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1059,6 +1059,50 @@ MonoBehaviour:
   mask:
     serializedVersion: 2
     m_Bits: 128
+--- !u!1 &1347407976
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1347407978}
+  - component: {fileID: 1347407977}
+  m_Layer: 0
+  m_Name: GameManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1347407977
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1347407976}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9bc803c961b2fad45a604d4c13020b1e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  contador: 0
+--- !u!4 &1347407978
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1347407976}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.0029972792, y: 1.2318667, z: -1.8563074}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 9
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1377275895
 GameObject:
   m_ObjectHideFlags: 0
@@ -2038,7 +2082,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: -5296228860848455968, guid: 9ffd78739ee9f69438dddbbf225eef6a, type: 3}
+  - {fileID: 2100000, guid: bff35257e20f9b34b9e6f9f5feafc442, type: 2}
   - {fileID: -8848810374240701247, guid: 9ffd78739ee9f69438dddbbf225eef6a, type: 3}
   - {fileID: -1926251395923593545, guid: 9ffd78739ee9f69438dddbbf225eef6a, type: 3}
   - {fileID: 4071801839067930850, guid: 9ffd78739ee9f69438dddbbf225eef6a, type: 3}
@@ -2207,7 +2251,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: -8914259895920572963, guid: 10761f69b7c5d604e958f9d0e19ef858, type: 3}
+  - {fileID: 2100000, guid: bff35257e20f9b34b9e6f9f5feafc442, type: 2}
   - {fileID: -5419476393244941087, guid: 10761f69b7c5d604e958f9d0e19ef858, type: 3}
   m_StaticBatchInfo:
     firstSubMesh: 0
@@ -2290,7 +2334,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: -5296228860848455968, guid: 2aebfe5925f964a4096f43e13c28e04c, type: 3}
+  - {fileID: 2100000, guid: bff35257e20f9b34b9e6f9f5feafc442, type: 2}
   - {fileID: -8848810374240701247, guid: 2aebfe5925f964a4096f43e13c28e04c, type: 3}
   - {fileID: 4071801839067930850, guid: 2aebfe5925f964a4096f43e13c28e04c, type: 3}
   - {fileID: -1926251395923593545, guid: 2aebfe5925f964a4096f43e13c28e04c, type: 3}
@@ -2615,6 +2659,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   promptMessage: that table reminds me of...
+  contador: 0
   dreamVersion: {fileID: 5252141210618832126}
   particle: {fileID: 1779565584054719015, guid: 283c1fa3f435cc842a3bf387ba72821d, type: 3}
 --- !u!33 &220061903125006666
@@ -3051,7 +3096,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: -5419476393244941087, guid: 5db5dd2194fc4f44eaeab3214b91a15b, type: 3}
+  - {fileID: 2100000, guid: bff35257e20f9b34b9e6f9f5feafc442, type: 2}
   - {fileID: 5435524871141313241, guid: 5db5dd2194fc4f44eaeab3214b91a15b, type: 3}
   m_StaticBatchInfo:
     firstSubMesh: 0
@@ -5532,6 +5577,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   promptMessage: that board reminds me of...
+  contador: 0
   dreamVersion: {fileID: 5252141210801275751}
   particle: {fileID: 1779565584054719015, guid: 283c1fa3f435cc842a3bf387ba72821d, type: 3}
 --- !u!23 &834930567761778848
@@ -5610,7 +5656,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: -8848810374240701247, guid: 5db5dd2194fc4f44eaeab3214b91a15b, type: 3}
+  - {fileID: 2100000, guid: bff35257e20f9b34b9e6f9f5feafc442, type: 2}
   - {fileID: -5081792898505675300, guid: 5db5dd2194fc4f44eaeab3214b91a15b, type: 3}
   - {fileID: -6440671867446150686, guid: 5db5dd2194fc4f44eaeab3214b91a15b, type: 3}
   - {fileID: -7019844998633843185, guid: 5db5dd2194fc4f44eaeab3214b91a15b, type: 3}
@@ -6487,6 +6533,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   promptMessage: that mat remids me of...
+  contador: 0
   dreamVersion: {fileID: 5252141210577470815}
   particle: {fileID: 1779565584054719015, guid: 283c1fa3f435cc842a3bf387ba72821d, type: 3}
 --- !u!23 &972855969565078138
@@ -7393,7 +7440,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: -382652638819485698, guid: 5db5dd2194fc4f44eaeab3214b91a15b, type: 3}
+  - {fileID: 2100000, guid: bff35257e20f9b34b9e6f9f5feafc442, type: 2}
   - {fileID: -8848810374240701247, guid: 5db5dd2194fc4f44eaeab3214b91a15b, type: 3}
   - {fileID: 2926557707537190794, guid: 5db5dd2194fc4f44eaeab3214b91a15b, type: 3}
   - {fileID: -2653651044934150266, guid: 5db5dd2194fc4f44eaeab3214b91a15b, type: 3}
@@ -7452,6 +7499,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   promptMessage: those books remind me of...
+  contador: 0
   dreamVersion: {fileID: 4909542941597054484}
   particle: {fileID: 1779565584054719015, guid: 283c1fa3f435cc842a3bf387ba72821d, type: 3}
 --- !u!1 &1048646040877618001
@@ -7595,6 +7643,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   promptMessage: hmmm... this wall...
+  contador: 0
   dreamVersion: {fileID: 502818455}
   particle: {fileID: 1632174508}
 --- !u!23 &1048646041027479548
@@ -7616,7 +7665,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: -8848810374240701247, guid: 5db5dd2194fc4f44eaeab3214b91a15b, type: 3}
+  - {fileID: 2100000, guid: bff35257e20f9b34b9e6f9f5feafc442, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -7829,7 +7878,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: -5081792898505675300, guid: 5db5dd2194fc4f44eaeab3214b91a15b, type: 3}
+  - {fileID: 2100000, guid: bff35257e20f9b34b9e6f9f5feafc442, type: 2}
   - {fileID: -876546973899608171, guid: 5db5dd2194fc4f44eaeab3214b91a15b, type: 3}
   m_StaticBatchInfo:
     firstSubMesh: 0
@@ -9779,7 +9828,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 73434d1931a7c9946a452425d05a0ea5, type: 2}
+  - {fileID: 2100000, guid: 6cfe423139c361a459da7ed9831d4b1c, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -9885,6 +9934,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   promptMessage: that sofa reminds me of...
+  contador: 0
   dreamVersion: {fileID: 5252141211051916683}
   particle: {fileID: 1779565584054719015, guid: 283c1fa3f435cc842a3bf387ba72821d, type: 3}
 --- !u!33 &1529333647170526971
@@ -10209,6 +10259,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   promptMessage: that mug reminds me of...
+  contador: 0
   dreamVersion: {fileID: 2370885906697948545}
   particle: {fileID: 1779565584054719015, guid: 283c1fa3f435cc842a3bf387ba72821d, type: 3}
 --- !u!33 &1733295246941150599
@@ -10479,6 +10530,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   promptMessage: that lamps reminds me of...
+  contador: 0
   dreamVersion: {fileID: 5252141211640259067}
   particle: {fileID: 1779565584054719015, guid: 283c1fa3f435cc842a3bf387ba72821d, type: 3}
 --- !u!1 &1860824184529461342
@@ -10598,6 +10650,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   promptMessage: those books remind me of...
+  contador: 0
   dreamVersion: {fileID: 4909542942944664497}
   particle: {fileID: 1779565584054719015, guid: 283c1fa3f435cc842a3bf387ba72821d, type: 3}
 --- !u!65 &1860824184978645536
@@ -10799,6 +10852,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   promptMessage: those books remind me of...
+  contador: 0
   dreamVersion: {fileID: 4909542942729175320}
   particle: {fileID: 1779565584054719015, guid: 283c1fa3f435cc842a3bf387ba72821d, type: 3}
 --- !u!1 &1860824185885696108
@@ -10834,6 +10888,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   promptMessage: that light looks just like...
+  contador: 0
   dreamVersion: {fileID: 5252141212042655962}
   particle: {fileID: 1779565584054719015, guid: 283c1fa3f435cc842a3bf387ba72821d, type: 3}
 --- !u!65 &1860824185885696110
@@ -11089,7 +11144,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: -5081792898505675300, guid: 5db5dd2194fc4f44eaeab3214b91a15b, type: 3}
+  - {fileID: 2100000, guid: bff35257e20f9b34b9e6f9f5feafc442, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -11144,6 +11199,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   promptMessage: that mug reminds me of...
+  contador: 0
   dreamVersion: {fileID: 4909542942336995547}
   particle: {fileID: 1779565584054719015, guid: 283c1fa3f435cc842a3bf387ba72821d, type: 3}
 --- !u!65 &2069299804443549642
@@ -11498,7 +11554,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: -5419476393244941087, guid: 5db5dd2194fc4f44eaeab3214b91a15b, type: 3}
+  - {fileID: 2100000, guid: bff35257e20f9b34b9e6f9f5feafc442, type: 2}
   - {fileID: -2702948839838747086, guid: 5db5dd2194fc4f44eaeab3214b91a15b, type: 3}
   - {fileID: -4006148316881293267, guid: 5db5dd2194fc4f44eaeab3214b91a15b, type: 3}
   - {fileID: -5081792898505675300, guid: 5db5dd2194fc4f44eaeab3214b91a15b, type: 3}
@@ -13307,7 +13363,7 @@ MeshRenderer:
   m_RendererPriority: 0
   m_Materials:
   - {fileID: -5081792898505675300, guid: 5db5dd2194fc4f44eaeab3214b91a15b, type: 3}
-  - {fileID: -5419476393244941087, guid: 5db5dd2194fc4f44eaeab3214b91a15b, type: 3}
+  - {fileID: 2100000, guid: bff35257e20f9b34b9e6f9f5feafc442, type: 2}
   - {fileID: 654736387241173375, guid: 5db5dd2194fc4f44eaeab3214b91a15b, type: 3}
   m_StaticBatchInfo:
     firstSubMesh: 0
@@ -13611,7 +13667,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: -5081792898505675300, guid: 5db5dd2194fc4f44eaeab3214b91a15b, type: 3}
+  - {fileID: 2100000, guid: bff35257e20f9b34b9e6f9f5feafc442, type: 2}
   - {fileID: 654736387241173375, guid: 5db5dd2194fc4f44eaeab3214b91a15b, type: 3}
   m_StaticBatchInfo:
     firstSubMesh: 0
@@ -13763,7 +13819,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: -8848810374240701247, guid: 5db5dd2194fc4f44eaeab3214b91a15b, type: 3}
+  - {fileID: 2100000, guid: bff35257e20f9b34b9e6f9f5feafc442, type: 2}
   - {fileID: -2702948839838747086, guid: 5db5dd2194fc4f44eaeab3214b91a15b, type: 3}
   m_StaticBatchInfo:
     firstSubMesh: 0
@@ -21360,6 +21416,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   promptMessage: this window reminds me of...
+  contador: 0
   dreamVersion: {fileID: 817627871}
   particle: {fileID: 1779565584054719015, guid: 283c1fa3f435cc842a3bf387ba72821d, type: 3}
 --- !u!65 &4972752264985475920
@@ -22719,7 +22776,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: -5419476393244941087, guid: 5db5dd2194fc4f44eaeab3214b91a15b, type: 3}
+  - {fileID: 2100000, guid: bff35257e20f9b34b9e6f9f5feafc442, type: 2}
   - {fileID: 5435524871141313241, guid: 5db5dd2194fc4f44eaeab3214b91a15b, type: 3}
   m_StaticBatchInfo:
     firstSubMesh: 0
@@ -22783,6 +22840,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   promptMessage: that cushion reminds me of...
+  contador: 0
   dreamVersion: {fileID: 5252141210970963581}
   particle: {fileID: 1779565584054719015, guid: 283c1fa3f435cc842a3bf387ba72821d, type: 3}
 --- !u!65 &5430703166308841122
@@ -23983,6 +24041,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   promptMessage: that trash bin reminds me of...
+  contador: 0
   dreamVersion: {fileID: 5252141210423942633}
   particle: {fileID: 1779565584054719015, guid: 283c1fa3f435cc842a3bf387ba72821d, type: 3}
 --- !u!65 &5794515145142237039
@@ -26038,6 +26097,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   promptMessage: my plants is just like the palm tree in my dream...
+  contador: 0
   dreamVersion: {fileID: 5252141211874656988}
   particle: {fileID: 1779565584054719015, guid: 283c1fa3f435cc842a3bf387ba72821d, type: 3}
 --- !u!65 &6387695915712885367
@@ -26199,7 +26259,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: -8848810374240701247, guid: 5db5dd2194fc4f44eaeab3214b91a15b, type: 3}
+  - {fileID: 2100000, guid: bff35257e20f9b34b9e6f9f5feafc442, type: 2}
   - {fileID: -2702948839838747086, guid: 5db5dd2194fc4f44eaeab3214b91a15b, type: 3}
   m_StaticBatchInfo:
     firstSubMesh: 0
@@ -27750,7 +27810,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: -5419476393244941087, guid: 5db5dd2194fc4f44eaeab3214b91a15b, type: 3}
+  - {fileID: 2100000, guid: bff35257e20f9b34b9e6f9f5feafc442, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -27805,7 +27865,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: -8848810374240701247, guid: 5db5dd2194fc4f44eaeab3214b91a15b, type: 3}
+  - {fileID: 2100000, guid: bff35257e20f9b34b9e6f9f5feafc442, type: 2}
   - {fileID: 5435524871141313241, guid: 5db5dd2194fc4f44eaeab3214b91a15b, type: 3}
   m_StaticBatchInfo:
     firstSubMesh: 0
@@ -29606,6 +29666,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   promptMessage: my desk looks just like...
+  contador: 0
   dreamVersion: {fileID: 5252141211802068898}
   particle: {fileID: 1779565584054719015, guid: 283c1fa3f435cc842a3bf387ba72821d, type: 3}
 --- !u!4 &7651501721005594402

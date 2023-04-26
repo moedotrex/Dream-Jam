@@ -6,6 +6,7 @@ public abstract class Interactable : MonoBehaviour
 {
     //message displayed to player when looking at an interactable
     public string promptMessage;
+    public int contador = 0;
     
     //this function will be called from our player
     public void BaseInteract()
@@ -28,4 +29,5 @@ public abstract class Interactable : MonoBehaviour
             renderer.material.color = isHighlighted ? Color.blue : Color.black;
         }
     }
+
 }

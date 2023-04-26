@@ -11,22 +11,23 @@ public class Mug : Interactable
     // Start is called before the first frame update
     void Start()
     {
-        //GetComponent<Renderer>().material.color = Color.blue;
     }
 
     // Update is called once per frame
     void Update()
     {
-        
+
     }
     
     //this function is where we will design our interaction using code
     protected override void Interact()
     {
+        GameManager.instance.IncreaseContador();
         Debug.Log("interacted with " + gameObject.name);
         transform.gameObject.SetActive (false);
         Instantiate(particle, transform.position, Quaternion.identity);
         dreamVersion.SetActive(true);
 
     }
+    
 }
