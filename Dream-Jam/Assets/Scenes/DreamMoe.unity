@@ -1313,6 +1313,94 @@ MonoBehaviour:
   mask:
     serializedVersion: 2
     m_Bits: 128
+--- !u!1 &1296195018
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1296195020}
+  - component: {fileID: 1296195019}
+  m_Layer: 0
+  m_Name: wallBoundaryBox-1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!65 &1296195019
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1296195018}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.5, y: 5, z: 8}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!4 &1296195020
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1296195018}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 4.21, y: 2.65, z: -0.88}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 10
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1328496234
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1328496236}
+  - component: {fileID: 1328496235}
+  m_Layer: 0
+  m_Name: wallBoundaryBox-2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!65 &1328496235
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1328496234}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 8, y: 5, z: 0.5}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!4 &1328496236
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1328496234}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.1, y: 2.65, z: 3.37}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 11
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1347407976
 GameObject:
   m_ObjectHideFlags: 0
@@ -11037,7 +11125,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f2b065e3edc880a4bb99b3cb2aad4113, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  promptMessage: that lamps reminds me of...
+  promptMessage: that lamp reminds me of...
   contador: 0
   dreamVersion: {fileID: 5252141211640259067}
   particle: {fileID: 1779565584054719015, guid: 283c1fa3f435cc842a3bf387ba72821d, type: 3}
@@ -18197,8 +18285,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5252141210801275751}
   m_LocalRotation: {x: -0, y: -0.7071068, z: -0, w: 0.7071068}
-  m_LocalPosition: {x: 3.957, y: 3.027, z: -1.3190002}
-  m_LocalScale: {x: 169.99998, y: 170, z: 169.99998}
+  m_LocalPosition: {x: 3.93, y: 3.0551, z: -1.3245}
+  m_LocalScale: {x: 340, y: 340, z: 340}
   m_Children: []
   m_Father: {fileID: 4909542942215324257}
   m_RootOrder: 3
@@ -21927,7 +22015,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f2b065e3edc880a4bb99b3cb2aad4113, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  promptMessage: this window reminds me of...
+  promptMessage: what if I open the window...
   contador: 0
   dreamVersion: {fileID: 817627871}
   particle: {fileID: 1779565584054719015, guid: 283c1fa3f435cc842a3bf387ba72821d, type: 3}
