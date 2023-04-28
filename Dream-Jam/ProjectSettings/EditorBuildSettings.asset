@@ -6,6 +6,9 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/SampleScene.unity
-    guid: d1c3109bdb54ad54c8a2b2838528e640
+    path: Assets/Scenes/StartScreen.unity
+    guid: be0921d77f6bb8b4aa5934f1b0bd2fc4
+  - enabled: 1
+    path: Assets/Scenes/DreamMoe.unity
+    guid: 0c8416df54c59924692143558118fb7a
   m_configObjects: {}
