@@ -550,7 +550,7 @@ Transform:
   m_LocalScale: {x: 14.063456, y: 14.063456, z: 14.063458}
   m_Children: []
   m_Father: {fileID: 1340147513828451889}
-  m_RootOrder: 49
+  m_RootOrder: 50
   m_LocalEulerAnglesHint: {x: 116.02701, y: -178.171, z: 167.137}
 --- !u!108 &386501739
 Light:
@@ -1297,7 +1297,7 @@ Transform:
   m_LocalScale: {x: 14.063456, y: 14.063454, z: 14.063453}
   m_Children: []
   m_Father: {fileID: 1340147513828451889}
-  m_RootOrder: 48
+  m_RootOrder: 49
   m_LocalEulerAnglesHint: {x: 64.092, y: -275.691, z: 1.752}
 --- !u!108 &762680044
 Light:
@@ -1465,7 +1465,7 @@ Transform:
   m_LocalScale: {x: 100, y: 100, z: 100}
   m_Children: []
   m_Father: {fileID: 1340147513828451889}
-  m_RootOrder: 55
+  m_RootOrder: 56
   m_LocalEulerAnglesHint: {x: -90, y: 0, z: 180}
 --- !u!23 &817627873
 MeshRenderer:
@@ -2039,7 +2039,7 @@ Transform:
   m_LocalScale: {x: 14.063459, y: 14.0634575, z: 14.0634575}
   m_Children: []
   m_Father: {fileID: 1340147513828451889}
-  m_RootOrder: 47
+  m_RootOrder: 48
   m_LocalEulerAnglesHint: {x: 58.387, y: -180, z: 0}
 --- !u!108 &1377275897
 Light:
@@ -2439,7 +2439,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: bb6aa4f6dfb23554eabf3cc3b5b19b99, type: 3}
       propertyPath: m_RootOrder
-      value: 62
+      value: 57
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: bb6aa4f6dfb23554eabf3cc3b5b19b99, type: 3}
       propertyPath: m_LocalScale.x
@@ -2757,7 +2757,7 @@ Transform:
   m_LocalScale: {x: 14.063457, y: 14.063456, z: 14.0634575}
   m_Children: []
   m_Father: {fileID: 1340147513828451889}
-  m_RootOrder: 50
+  m_RootOrder: 51
   m_LocalEulerAnglesHint: {x: 123.104004, y: -268.029, z: 196.712}
 --- !u!108 &1737517888
 Light:
@@ -6307,9 +6307,9 @@ GameObject:
   - component: {fileID: 4537856557291276362}
   - component: {fileID: 780433766094596074}
   - component: {fileID: 2481461978661629740}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: wardrobe-door-R
-  m_TagString: Untagged
+  m_TagString: Selectable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10479,7 +10479,7 @@ Transform:
   - {fileID: 3193618669184570725}
   - {fileID: 7122628927234116650}
   m_Father: {fileID: 1340147513828451889}
-  m_RootOrder: 52
+  m_RootOrder: 53
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -81.5}
 --- !u!4 &1340147513546326699
 Transform:
@@ -10596,6 +10596,7 @@ Transform:
   - {fileID: 1340147513581893796}
   - {fileID: 1340147514105672085}
   - {fileID: 1340147513546326699}
+  - {fileID: 9058410443351685885}
   - {fileID: 8395635904196947728}
   - {fileID: 4411813259777739748}
   - {fileID: 1377275896}
@@ -10706,7 +10707,7 @@ Transform:
   - {fileID: 3105277462736744195}
   - {fileID: 7730354814959543145}
   m_Father: {fileID: 1340147513828451889}
-  m_RootOrder: 53
+  m_RootOrder: 54
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &1340147514822392534
 Transform:
@@ -10721,7 +10722,7 @@ Transform:
   m_Children:
   - {fileID: 8336644609578942445}
   m_Father: {fileID: 1340147513828451889}
-  m_RootOrder: 51
+  m_RootOrder: 52
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &1340147514930826582
 Transform:
@@ -13453,7 +13454,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: -4194514788161994157, guid: 5d85fb36c1b9daa4096adaca38dfb5a8, type: 3}
+  - {fileID: 2100000, guid: bff35257e20f9b34b9e6f9f5feafc442, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -14182,7 +14183,7 @@ Transform:
   m_Children:
   - {fileID: 1961912647935714379}
   m_Father: {fileID: 8395635904196947728}
-  m_RootOrder: 1
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!33 &2875281337519500599
 MeshFilter:
@@ -18235,7 +18236,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: -8914259895920572963, guid: 5d85fb36c1b9daa4096adaca38dfb5a8, type: 3}
+  - {fileID: 2100000, guid: bff35257e20f9b34b9e6f9f5feafc442, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -18297,7 +18298,7 @@ Transform:
   - {fileID: 7722705446764922745}
   - {fileID: 1640486559}
   m_Father: {fileID: 1340147513828451889}
-  m_RootOrder: 46
+  m_RootOrder: 47
   m_LocalEulerAnglesHint: {x: 0, y: -27.9, z: -81.85}
 --- !u!4 &4414212267504913839
 Transform:
@@ -18674,7 +18675,7 @@ Transform:
   m_Children:
   - {fileID: 5893829128455111603}
   m_Father: {fileID: 8395635904196947728}
-  m_RootOrder: 2
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &4604941135505660882
 Transform:
@@ -26067,7 +26068,7 @@ GameObject:
   - component: {fileID: 1961912647935714379}
   - component: {fileID: 8883761154289242301}
   - component: {fileID: 6826961519025882363}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: wardrobe-knobs-l
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -28036,13 +28037,14 @@ MonoBehaviour:
   m_GameObject: {fileID: 6387695915712885365}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f2b065e3edc880a4bb99b3cb2aad4113, type: 3}
+  m_Script: {fileID: 11500000, guid: 5e14d4becc2c42847a17b10235428a1b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   promptMessage: my plants is just like the palm tree in my dream...
   contador: 0
   dreamVersion: {fileID: 5252141211874656988}
   particle: {fileID: 1779565584054719015, guid: 283c1fa3f435cc842a3bf387ba72821d, type: 3}
+  ceiling: {fileID: 1048646040877618001}
 --- !u!65 &6387695915712885367
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -31638,9 +31640,9 @@ GameObject:
   - component: {fileID: 2871258885280861255}
   - component: {fileID: 8892302892539458871}
   - component: {fileID: 4400022364409613825}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: wardrobe-door-L
-  m_TagString: Untagged
+  m_TagString: Selectable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -34734,7 +34736,7 @@ GameObject:
   - component: {fileID: 5893829128455111603}
   - component: {fileID: 2592557183946861759}
   - component: {fileID: 5783341180640884203}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: wardrobe-knobs-r
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -35011,11 +35013,10 @@ Transform:
   m_LocalPosition: {x: 0.33, y: 0.22, z: -3.42}
   m_LocalScale: {x: 0.5, y: 0.8, z: 0.8}
   m_Children:
-  - {fileID: 9058410443351685885}
   - {fileID: 2871258885280861255}
   - {fileID: 4537856557291276362}
   m_Father: {fileID: 1340147513828451889}
-  m_RootOrder: 45
+  m_RootOrder: 46
   m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
 --- !u!33 &8398810636899048936
 MeshFilter:
@@ -36141,7 +36142,7 @@ Transform:
   m_LocalScale: {x: 100, y: 99.999985, z: 99.999985}
   m_Children: []
   m_Father: {fileID: 1340147513828451889}
-  m_RootOrder: 54
+  m_RootOrder: 55
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &8902342524794182402
 Transform:
@@ -37400,12 +37401,12 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7543040776834516429}
-  m_LocalRotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
-  m_LocalPosition: {x: -0, y: 0, z: 0}
-  m_LocalScale: {x: 100, y: 100, z: 100}
+  m_LocalRotation: {x: -0.50000006, y: 0.49999997, z: 0.50000006, w: 0.49999997}
+  m_LocalPosition: {x: 0.33, y: 0.22, z: -3.42}
+  m_LocalScale: {x: 50, y: 80, z: 80}
   m_Children: []
-  m_Father: {fileID: 8395635904196947728}
-  m_RootOrder: 0
+  m_Father: {fileID: 1340147513828451889}
+  m_RootOrder: 45
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &9068653652474185418
 GameObject:
@@ -37721,6 +37722,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8395635904196947728}
+  - component: {fileID: 9207779810646750635}
+  - component: {fileID: 9207779810646750636}
   m_Layer: 0
   m_Name: wardrobe-doors
   m_TagString: Untagged
@@ -37728,6 +37731,43 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!95 &9207779810646750635
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9207779810646750634}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 1b3181692033eb44d9c0f196df3c8bf8, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &9207779810646750636
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9207779810646750634}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c7a334b704e5e794d80da098aefad685, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  promptMessage: this wardrobe
+  contador: 0
+  particle: {fileID: 1779565584054719015, guid: 283c1fa3f435cc842a3bf387ba72821d, type: 3}
+  wardrobe: {fileID: 9207779810646750634}
 --- !u!1 &9221360261411803938
 GameObject:
   m_ObjectHideFlags: 0
