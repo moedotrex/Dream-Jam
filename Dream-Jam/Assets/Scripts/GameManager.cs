@@ -7,6 +7,7 @@ public class GameManager : MonoBehaviour
     public static GameManager instance;
 
     public int contador = 0;
+    public GameObject finishScreen;
 
     private void Awake()
     {
@@ -31,9 +32,11 @@ public class GameManager : MonoBehaviour
     {
         Debug.Log("contador = " + contador);
         
-        if (contador >= 16)
+        if (contador >= 18)
         {
             Debug.Log("Game finished");
+            //delay
+            finishScreen.SetActive(true);
         }
     }
 }

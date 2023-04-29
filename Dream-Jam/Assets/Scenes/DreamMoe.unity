@@ -2040,6 +2040,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   contador: 0
+  finishScreen: {fileID: 1570628232}
 --- !u!4 &1347407978
 Transform:
   m_ObjectHideFlags: 0
@@ -9558,8 +9559,8 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: -8914259895920572963, guid: 5d85fb36c1b9daa4096adaca38dfb5a8, type: 3}
-  - {fileID: -7098565394360792512, guid: 5d85fb36c1b9daa4096adaca38dfb5a8, type: 3}
+  - {fileID: 2100000, guid: bff35257e20f9b34b9e6f9f5feafc442, type: 2}
+  - {fileID: 2100000, guid: bff35257e20f9b34b9e6f9f5feafc442, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -31874,13 +31875,44 @@ GameObject:
   - component: {fileID: 9058410443351685885}
   - component: {fileID: 2808111861497299215}
   - component: {fileID: 1140617799783957341}
-  m_Layer: 0
+  - component: {fileID: 7543040776834516431}
+  - component: {fileID: 7543040776834516430}
+  m_Layer: 7
   m_Name: Wardrobe
-  m_TagString: Untagged
+  m_TagString: Selectable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!114 &7543040776834516430
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7543040776834516429}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c7a334b704e5e794d80da098aefad685, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  promptMessage: this wardrobe...
+  contador: 0
+  particle: {fileID: 1779565584054719015, guid: 283c1fa3f435cc842a3bf387ba72821d, type: 3}
+  wardrobe: {fileID: 9207779810646750634}
+--- !u!65 &7543040776834516431
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7543040776834516429}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.019053696, y: 0.022626448, z: 0.051103823}
+  m_Center: {x: 0.00085619, y: -0.000015567179, z: 0.025493477}
 --- !u!4 &7560831726421344639
 Transform:
   m_ObjectHideFlags: 0
@@ -35289,9 +35321,9 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 9207779810646750634}
-  m_LocalRotation: {x: 0, y: 0.7071068, z: 0, w: 0.7071068}
+  m_LocalRotation: {x: -0, y: 0.7071068, z: -0, w: 0.7071068}
   m_LocalPosition: {x: 0.33, y: 0.22, z: -3.42}
-  m_LocalScale: {x: 0.5, y: 0.8, z: 0.8}
+  m_LocalScale: {x: 0.5, y: 0.8000001, z: 0.8000001}
   m_Children:
   - {fileID: 2871258885280861255}
   - {fileID: 4537856557291276362}
