@@ -28,7 +28,6 @@ public class Wardrobe : Interactable
         wardrobe.GetComponent<Animator>().SetBool("IsOpen", wardrobeOpen);
         GameManager.instance.IncreaseContador();
         Debug.Log("interacted with " + gameObject.name);
-        transform.gameObject.SetActive (false);
         Instantiate(particle, transform.position, Quaternion.identity);
         //dreamVersion.SetActive(true);
 
