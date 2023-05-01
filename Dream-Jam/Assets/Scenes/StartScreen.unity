@@ -747,7 +747,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -477.1, y: 362.5}
+  m_AnchoredPosition: {x: -495, y: 384.76}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &936902633
@@ -783,12 +783,13 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: "Programming by Moe\t\tDesign by Xerosolar\t\tWriting by Kiralina\n\nThanks
-    to the following creators for their assets used in this game:\r\n\n3D Models:\r\nSword
-    of Artorias by Samize, Conspiracy Boards + Geometry Node System by \nUnreal Designer,
-    Spacefighter Cockpit (Wasp Interdictor) by Comrade1280, \nDisco ball animated
-    by SusanKing, T-Rex by wileyart, Dice (Pink) by Jack Ansell,\nAnakin Skywalker's
-    Lightsaber by Paul, Turntable by Xolotli, Armor Set by\ngimora, SK_ Ostritch
+  m_Text: "Programming by MoeRex\t\tDesign by Xerosolar\t\tWriting by Kiralina\n\nThanks
+    to the following creators for their assets used in this game:\r\n\n3D Models:\r\nAnother
+    Bedroom by Bubble Tea, Simple Glasses by DuckiNate, Octopuses by\nAglenys_, Sword
+    of Artorias by Samize, Conspiracy Boards + Geometry Node \nSystem by Unreal Designer,
+    Spacefighter Cockpit (Wasp Interdictor) by \nComrade1280, Disco ball animated
+    by SusanKing, T-Rex by wileyart, Dice (Pink) \nby Jack Ansell, Anakin Skywalker's
+    Lightsaber by Paul, Turntable by Xolotli, \nArmor Set by gimora, SK_ Ostritch
     by U.A.C.WAD\n\nMusic:\r\nroboduck by airtone\r, Serenity by mactonite (Darkroom)\r\n\r\nSource
     videos:\r\ncottonbro studio, Pressmaster, Hansol Kim, RODNAE Productions, \nLos
     Muertos Crew, Tima Miroshnichenko\r\n\r\nSound FX:\r\nBlips and Bloops by PRIM_ORDial\r,
