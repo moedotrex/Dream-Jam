@@ -740,14 +740,14 @@ RectTransform:
   m_GameObject: {fileID: 936902631}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 2.81, y: 2.81, z: 2.81}
+  m_LocalScale: {x: 1.2, y: 1.2, z: 1.2}
   m_Children: []
   m_Father: {fileID: 274298882}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -371.3, y: 362.5}
+  m_AnchoredPosition: {x: -477.1, y: 362.5}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &936902633
@@ -772,18 +772,27 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 12800000, guid: c072817b6b523214dbde13ffb202d6b9, type: 3}
-    m_FontSize: 14
+    m_FontSize: 28
     m_FontStyle: 0
     m_BestFit: 0
-    m_MinSize: 10
+    m_MinSize: 2
     m_MaxSize: 40
     m_Alignment: 0
     m_AlignByGeometry: 0
     m_RichText: 1
-    m_HorizontalOverflow: 0
-    m_VerticalOverflow: 0
+    m_HorizontalOverflow: 1
+    m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: 'Credits:'
+  m_Text: "Programming by Moe\t\tDesign by Xerosolar\t\tWriting by Kiralina\n\nThanks
+    to the following creators for their assets used in this game:\r\n\n3D Models:\r\nSword
+    of Artorias by Samize, Conspiracy Boards + Geometry Node System by \nUnreal Designer,
+    Spacefighter Cockpit (Wasp Interdictor) by Comrade1280, \nDisco ball animated
+    by SusanKing, T-Rex by wileyart, Dice (Pink) by Jack Ansell,\nAnakin Skywalker's
+    Lightsaber by Paul, Turntable by Xolotli, Armor Set by\ngimora, SK_ Ostritch
+    by U.A.C.WAD\n\nMusic:\r\nroboduck by airtone\r, Serenity by mactonite (Darkroom)\r\n\r\nSource
+    videos:\r\ncottonbro studio, Pressmaster, Hansol Kim, RODNAE Productions, \nLos
+    Muertos Crew, Tima Miroshnichenko\r\n\r\nSound FX:\r\nBlips and Bloops by PRIM_ORDial\r,
+    cartoon gibberish over phone by Timbre"
 --- !u!222 &936902634
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -849,7 +858,14 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Credits:'
+  m_text: 'Credits:
+
+    Programming by Moe
+
+    Design by Xerosolar
+
+    Writing
+    by Kiralina'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
